@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilidadesTP-1-LucianoPerey
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiramideCuadrada-LucianoPereyra.Test", "PiramideCuadrada-LucianoPereyra.Test\PiramideCuadrada-LucianoPereyra.Test.csproj", "{AD3758BE-1198-432F-BD77-446EA3E21D5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucianoPereyra.Windows", "LucianoPereyra.Windows\LucianoPereyra.Windows.csproj", "{C0198D5C-C003-4836-BF30-C97FCF3321C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{AD3758BE-1198-432F-BD77-446EA3E21D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3758BE-1198-432F-BD77-446EA3E21D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3758BE-1198-432F-BD77-446EA3E21D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0198D5C-C003-4836-BF30-C97FCF3321C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0198D5C-C003-4836-BF30-C97FCF3321C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0198D5C-C003-4836-BF30-C97FCF3321C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0198D5C-C003-4836-BF30-C97FCF3321C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

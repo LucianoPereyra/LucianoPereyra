@@ -23,6 +23,10 @@ namespace LucianoPereyra
             CalcularApotema();
         }
 
+        public PiramideCuadrada()
+        {
+        }
+
         private void CalcularApotema()
         {
             _Apotema = Math.Sqrt(Math.Pow(LadoBase / 2.0, 2) + Math.Pow(Altura, 2));
@@ -50,6 +54,14 @@ namespace LucianoPereyra
             sb.AppendLine($"Volumen: {CalcularVolumen()}");
             return sb.ToString();
 
+        }
+
+        public string InformarLadoYAltura()
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine($"Lado de la base: {LadoBase}");
+            sb.AppendLine($" Altura: {Altura}");
+            return sb.ToString();
         }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
